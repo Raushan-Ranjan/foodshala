@@ -1,0 +1,8 @@
+-> Database is created named "foodshala" when someone login or register.
+
+-> 4 Table is created dynamically named registerCust (register info about customer),
+    resturant (register info about Resturant),
+    orders (to store food item that is order by customer),
+    foodItem (food-item that served by resturant).
+
+-> customer preference (veg/non-veg) done by filter button inside customer.php page not on login page.
