@@ -8,14 +8,8 @@ if(isset($_SESSION['type']) != "resturant" && !isset($_SESSION['login'])){
 header("Refresh:60");
 
 if(isset($_POST['name'])){
-$servername = "localhost";
-$username = "root";
-$password = "";
-$db = "foodshala";
-$port=3306;
 
-
-$conn =  mysqli_connect($servername, $username, $password,$db,$port);
+  include "config.php";
 
 
 
