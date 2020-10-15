@@ -215,7 +215,7 @@ hr{
                         <script>
                          var btn = document.getElementById('enter');
                          btn.addEventListener('click', function() {
-                          document.location.href = 'login.php';
+                          document.location.href = 'index.php';
                         });
                         </script>
 

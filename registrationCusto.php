@@ -45,7 +45,7 @@ $pwd = $_POST['password'];
 $sql = "INSERT INTO `registerCust`(`name`,`email`, `phone`, `password`) VALUES ('$name','$email','$phone','$pwd')";
 
 if ($conn->query($sql) === TRUE) {
-  header('Location:login.php');
+  header('Location:index.php');
 } else {
   echo "Error: " . $sql . "<br>" . $conn->error;
 }
@@ -159,7 +159,7 @@ hr {
 </form>
 <script>
  function onclickRedirect(){
-          window.location.href = "login.php";
+          window.location.href = "index.php";
     }
 </script>
 </body>

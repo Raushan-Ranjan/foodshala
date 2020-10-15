@@ -53,9 +53,9 @@ $sql = "INSERT INTO `resturant`(`name`, `email`, `phone`,`street`,`zip_code`,`ci
 
 if ($conn->query($sql) === TRUE) {
   // echo '<script>alert("Welcome to Geeks for Geeks")</script>';
-  header('Location:login.php');
+  header('Location:index.php');
 
-  //  echo "<script type='text/javascript'> document.location = 'login.php'; </script>";
+  //  echo "<script type='text/javascript'> document.location = 'index.php'; </script>";
   
 } else {
   $error = true;
@@ -186,7 +186,7 @@ h3{
 
 <script>
 function toResturant(){
-          window.location.href = "login.php";
+          window.location.href = "index.php";
     }
 </script>
 

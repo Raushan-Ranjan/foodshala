@@ -21,7 +21,7 @@ $res = $conn->query($mysql);
 
 $conn->close();
 }else{
-    header('location:login.php');
+    header('location:index.php');
 }
 ?>
 

@@ -20,8 +20,8 @@ if (isset($_SESSION['cart'])){
     unset($_SESSION['cart']);
 }
 
-header('location:login.php');
+header('location:index.php');
 }else{
-    header('location:login.php');  
+    header('location:index.php');  
 }
 ?>
