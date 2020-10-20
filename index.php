@@ -170,7 +170,7 @@ span.psw {
         }
     ?>
 
-<form action="login.php" method="post">
+<form action="index.php" method="post">
   <div class="imgcontainer">
     <img src="login.jpg" alt="Avatar" class="avatar">
   </div>
